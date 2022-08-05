@@ -10,7 +10,7 @@ class Program:
         print("1 = Java code")
         print("2 = Html code")
         choise = int(input("Input your choise number "))
-        Java = "public class Main{}"
+        Java = f"public class {name}"+{}
         Html = "<Html><Head></Head><title></title><body></body></Html>"
         if choise == 1:
             file.write(Java)
